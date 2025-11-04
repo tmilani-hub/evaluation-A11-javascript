@@ -1,7 +1,7 @@
 // ex06.js
 
 function getReduction(price, age) {
-	if (age < 5) {
+	if (age <= 5) {
 		return price * (0 / 100);
 	} else {
 		if (age <= 18) {
