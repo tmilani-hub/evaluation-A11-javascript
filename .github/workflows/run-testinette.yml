@@ -1,7 +1,6 @@
 name: Running Testinette using Vitest
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  push:
 
 permissions:
   contents: write
