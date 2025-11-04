@@ -5,7 +5,15 @@ function encodePassword(password, encodeFunction) {
 }
 
 function encodeRot8(password) {
-	// Écrire le code ici
+	for (
+		let a = "\n"
+		;
+		"a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z"
+		;
+		a++
+	) {
+		console.log(a)
+	}
 }
 
 function encodeRot16(password) {
